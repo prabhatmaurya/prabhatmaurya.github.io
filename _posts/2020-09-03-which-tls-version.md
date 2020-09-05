@@ -4,13 +4,16 @@ title:  "Checking which tls version supported by VIP !"
 date:   2020-09-03 18:32:16 +0900
 categories: VIP
 ---
-This document will help  to check whether instance is using TLS1.0 to TLS1.2 profile or the new TLS1.2 only profile.
+This document will help to check whether an instance is using TLS1.0 to TLS1.2 profile or the new TLS1.2 only profile.
+The new TLS 1.3 protocol is coming, as a part of the regular audit, we decided to check our all VIP. To find which TLS version currently we are supporting.
+
+# Precautions
+We cannot abolish old tls version until any of client using VIP not supporting higher version of tls version else it will face handshake failure error during TCP connection.
 
 
 # Prerequisites
 * curl command
 * Target VIP
-
 
 
 # check TLS version  using curl command
