@@ -28,7 +28,7 @@ twitter_username: prabhatmaurya
 github_username:  prabhatmaurya
 
 # Build settings
-theme: jekyll-theme-architect
+theme: minima
 plugins:
   - jekyll-feed
 
