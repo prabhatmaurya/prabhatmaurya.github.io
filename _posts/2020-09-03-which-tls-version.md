@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Checking which tls version supported by VIP !"
 date:   2020-09-03 18:32:16 +0900
 categories: VIP
+author: Prabhat Kumar
 ---
 This document will help to check whether an instance is using TLS1.0 to TLS1.2 profile or the new TLS1.2 only profile.
 

@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Search network vulners of an IP!"
 date:   2020-05-24 14:32:16 +0900
 categories: sre
+author: Prabhat Kumar
 ---
 # Prerequisites
 ```
@@ -23,7 +23,8 @@ $ cat scan.py
 
 import subprocess
 
-p = subprocess.Popen(["nmap", "-sV", "--script", "nmap-vulners", "[IP_ADDRESS]", "-p22,80,3306"], stdout=subprocess.PIPE)
+p = subprocess.Popen(["nmap", "-sV", "--script", "nmap-vulners", "[IP_ADD]", "-p22,80,3306"],
+                     stdout=subprocess.PIPE)
 (output, err) = p.communicate()
 msg = output.decode('utf-8').strip()
 
