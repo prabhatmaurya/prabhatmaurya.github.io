@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Setup local docker repository!"
 date:   2020-05-14 14:32:16 +0900
 categories: docker
+author: Prabhat Kumar
 ---
 # Setup local docker registry inside k8s cluseter
 

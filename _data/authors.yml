@@ -1,0 +1,6 @@
+# /_data/authors.yml
+
+Prabhat Kumar:
+  name        : "Prabhat Kumar"
+  bio         : "SRE Engg."
+  avatar      : "/assets/images/mypic.jpg"
