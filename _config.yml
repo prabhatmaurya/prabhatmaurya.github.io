@@ -14,7 +14,11 @@ github_username:  prabhatmaurya
 github: [metadata]
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "neon"
+minimal_mistakes_skin: "dark"
+enable_copy_code_button: true
+search: true
+include:
+  - "_pages"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -38,3 +42,8 @@ defaults:
       share: false
       related: true
       toc: false
+author:
+  name: "Prabhat Kumar"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "I am an **SRE engg** and parttime 'Trekker'." # Note: Markdown is allowed
+  location: "Bangalore"
